@@ -1,0 +1,8 @@
+AC_INIT([Bowling],[1.0])
+AC_PREREQ([2.59])
+AC_PROG_CC
+AC_PROG_CXX
+AC_CHECK_HEADERS([unistd.h])
+AC_CHECK_HEADERS([limits.h])
+AM_INIT_AUTOMAKE([1.10 no-define])
+AC_OUTPUT(Makefile)
